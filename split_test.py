@@ -61,10 +61,10 @@ class SplitTestCase(unittest.TestCase):
             },
             
             {
-                KEY_INPUT: "Rohit",
+                KEY_INPUT: "Rohit Sharma",
                 KEY_EXPECTED: {
-                    KEY_LENGTH: 1,
-                    KEY_FIRST_WORD: "TupacK",
+                    KEY_LENGTH: 3,
+                    KEY_FIRST_WORD: "Gohit",
                 }
             }
             
