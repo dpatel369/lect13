@@ -32,8 +32,16 @@ class SplitTestCase(unittest.TestCase):
                     KEY_FIRST_WORD: "Bone",
                     KEY_SECOND_WORD: "Thugs",
                 }
+            },
+            
+            {
+                KEY_INPUT: "MS Dhoni",
+                KEY_EXPECTED: {
+                    KEY_LENGTH: 2,
+                    KEY_FIRST_WORD: "MS",
+                    KEY_SECOND_WORD: "Dhoni",
+                }
             }
-            # TODO add another
         ]
         
         self.failure_test_params = [
@@ -47,11 +55,19 @@ class SplitTestCase(unittest.TestCase):
             {
                 KEY_INPUT: "Tupac Shakur",
                 KEY_EXPECTED: {
-                    KEY_LENGTH: 20,
-                    KEY_FIRST_WORD: "Arjit",
+                    KEY_LENGTH: 1,
+                    KEY_FIRST_WORD: "TupacK",
+                }
+            },
+            
+            {
+                KEY_INPUT: "Rohit",
+                KEY_EXPECTED: {
+                    KEY_LENGTH: 1,
+                    KEY_FIRST_WORD: "TupacK",
                 }
             }
-            # TODO add another
+            
         ]
 
 
