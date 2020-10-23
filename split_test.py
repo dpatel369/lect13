@@ -59,7 +59,7 @@ class SplitTestCase(unittest.TestCase):
                     KEY_FIRST_WORD: "TupacK",
                 }
             },
-            
+            #error
             {
                 KEY_INPUT: "Rohit Sharma",
                 KEY_EXPECTED: {
